@@ -1,7 +1,6 @@
 import io
 
 import streamlit as st
-import streamlit_authenticator as stauth
 import pandas as pd
 import yaml
 from yaml.loader import SafeLoader
