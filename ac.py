@@ -45,7 +45,7 @@ def main():
     
         excel_data = buffer.getvalue()
     
-        st.download_button(label='Download Excel File',
+        st.download_button(label='Download Excel File(All Data)',
                            data=excel_data,
                            file_name='exported.xlsx',
                            mime="application/vnd.ms-excel")
