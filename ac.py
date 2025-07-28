@@ -2,7 +2,6 @@ import io
 
 import streamlit as st
 import pandas as pd
-from dotenv import load_dotenv
 import time
 
 def main():
