@@ -2,7 +2,6 @@ import io
 
 import streamlit as st
 import pandas as pd
-import yaml
 from dotenv import load_dotenv
 import time
 
