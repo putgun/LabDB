@@ -3,16 +3,11 @@ import io
 import streamlit as st
 import pandas as pd
 import yaml
-from yaml.loader import SafeLoader
 from dotenv import load_dotenv
 import time
 
 def main():
     st.title("Activity Test List")
-
-    # Load credentials from YAML
-    with open('credentials.yaml') as file:
-        config = yaml.load(file, Loader=SafeLoader)
 
   
     try:
